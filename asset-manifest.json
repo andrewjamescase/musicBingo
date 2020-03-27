@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.7b420f60.chunk.css",
-    "main.js": "/static/js/main.008dd6d6.chunk.js",
-    "main.js.map": "/static/js/main.008dd6d6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6e1da91d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6e1da91d.js.map",
-    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.05c827f6.chunk.js": "/static/js/2.05c827f6.chunk.js",
-    "static/js/2.05c827f6.chunk.js.map": "/static/js/2.05c827f6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e085778d2ccca1a8f0334240623ed25f.js": "/precache-manifest.e085778d2ccca1a8f0334240623ed25f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.7b420f60.chunk.css.map": "/static/css/main.7b420f60.chunk.css.map",
-    "static/js/2.05c827f6.chunk.js.LICENSE.txt": "/static/js/2.05c827f6.chunk.js.LICENSE.txt"
+    "main.css": "/musicBingo/static/css/main.7b420f60.chunk.css",
+    "main.js": "/musicBingo/static/js/main.30626699.chunk.js",
+    "main.js.map": "/musicBingo/static/js/main.30626699.chunk.js.map",
+    "runtime-main.js": "/musicBingo/static/js/runtime-main.783d4162.js",
+    "runtime-main.js.map": "/musicBingo/static/js/runtime-main.783d4162.js.map",
+    "static/css/2.de424728.chunk.css": "/musicBingo/static/css/2.de424728.chunk.css",
+    "static/js/2.05c827f6.chunk.js": "/musicBingo/static/js/2.05c827f6.chunk.js",
+    "static/js/2.05c827f6.chunk.js.map": "/musicBingo/static/js/2.05c827f6.chunk.js.map",
+    "index.html": "/musicBingo/index.html",
+    "precache-manifest.91ee1e17f6923abf5e05672f28dee4a0.js": "/musicBingo/precache-manifest.91ee1e17f6923abf5e05672f28dee4a0.js",
+    "service-worker.js": "/musicBingo/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/musicBingo/static/css/2.de424728.chunk.css.map",
+    "static/css/main.7b420f60.chunk.css.map": "/musicBingo/static/css/main.7b420f60.chunk.css.map",
+    "static/js/2.05c827f6.chunk.js.LICENSE.txt": "/musicBingo/static/js/2.05c827f6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e1da91d.js",
+    "static/js/runtime-main.783d4162.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.05c827f6.chunk.js",
     "static/css/main.7b420f60.chunk.css",
-    "static/js/main.008dd6d6.chunk.js"
+    "static/js/main.30626699.chunk.js"
   ]
 }
