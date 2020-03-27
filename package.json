@@ -2,6 +2,7 @@
   "name": "musicbingo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andrewjamescase.github.io/musicBingo",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -13,8 +14,7 @@
     "react-css-modules": "^4.7.11",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "webpack-cli": "^3.3.11",
-    "homepage": "https://andrewjamescase.github.io/musicBingo"
+    "webpack-cli": "^3.3.11"
   },
   "scripts": {
     "start": "react-scripts start",
