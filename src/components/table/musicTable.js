@@ -27,32 +27,40 @@ function MusicTable() {
 
   function handleClickEvent() {
     var songObject = {
-      "G-eazy": "Me, Myself, and I",
-      "Dua Lipa": "some dua lipa song",
-      "Third song": "more songs",
-      "fourth song": "fourth song",
-      "fifth song": "fifth song",
-      "sixth song": "sixth song",
-      "8 song": "8 song",
-      "9 song": "9 song",
-      "10 song": "10 song",
-      "11 song": "11 song",
-      "12 song": "12 song",
-      "13 song": "13 song",
-      "14 song": "14 song",
-      "15 song": "15 song",
-      "16 song": "16 song",
-      "17 song": "17 song",
-      "18 song": "18 song",
-      "19 song": "19 song",
-      "20 song": "20 song",
-      "21 song": "21 song",
-      "22 song": "22 song",
-      "23 song": "23 song",
-      "24 song": "24 song",
-      "25 song": "25 song",
-      "26 song": "26 song",
-      "27 song": "27 song"
+      "Drake": "One Dance",
+      "Rihanna, Drake": "Work",
+      "Chainsmokers": "Closer",
+      "sia": "Cheap Thrills",
+      "Lil Yachty": "Broccoli",
+      "Amine": "Caroline",
+      "Chainsmokers": "Roses",
+      "G-Eazy": "Me, Myself, and I",
+      "Kendrick Lamar": "DNA",
+      "Migos": "Bad and Boujee",
+      "Post Malone": "Congratulations",
+      "Future": "Mask Off",
+      "DJ Khaled": "Wild Thoughts",
+      "Khalid": "Location",
+      "Rae Sremmurd": "Black Beatles",
+      "KYLE": "iSpy",
+      "Sheck Wes": "Mo Bamba",
+      "Drake": "God's Plan",
+      "Travis Scott": "goosebumps",
+      "Justin Bieber": "Despacito",
+      "Childish Gambino": "Redbone",
+      "Bebe Rexha": "Meant To Be",
+      "Camila Cabello": "Havana",
+      "Post Malone": "rockstar",
+      "Zedd": "the Middle",
+      "Dua Lipa": "New Rules",
+      "Khalid": "Love Lies",
+      "Drake Bell": "Gucci Gang",
+      "Lil Dicky": "Freaky Friday",
+      "Asap Ferg": "Plain Jane",
+      "The Weeknd": "Starboy",
+      "T-Pain": "Dan Bilzerian",
+      "Ski Mask": "Faucet Failure",
+      "Kanye West": "Famous"
     };
     var ArrayOfSongs = Object.values(songObject);
     var shuffledArray = shuffle(ArrayOfSongs);
@@ -63,20 +71,19 @@ function MusicTable() {
   function IntroScreen(props) {
     return (
       <div>
-        <h1 className={styles.header}>
+        {displayBoolean && (
+          <div>
+          <h1 className={styles.header}>
           Welcome to Andrew's music bingo. Click the button below to generate
           your card
         </h1>
-
-        {displayBoolean && (
           <Button onClick={handleClickEvent}>Generate a unique card</Button>
+          </div>
         )}
         {!displayBoolean && (
-          <div>
+          <div className={styles.musicTable}>
+            <h1 className={styles.header}>Bingo Card</h1>
             <MusicTableComponent shuffledArray={songArray} />
-            <Button onClick={handleClickEvent}>
-              Generate a new unique card
-            </Button>
           </div>
         )}
       </div>
