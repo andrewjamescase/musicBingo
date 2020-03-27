@@ -1,14 +1,9 @@
 td {
     border: 1px solid black;
 }
-tr {
-    
-}
 
 .stuff {
-    table-layout: fixed;
-    width: 100%;
-    height: 500px;
+    margin: 50px;
 }
 .btnGroup {
     width: 100%;

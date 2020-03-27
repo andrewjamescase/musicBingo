@@ -1,9 +1,9 @@
 .buttonStyle {
-    width: 200px;
+    width: 20%;
     height: 100px;
 }
 .buttonClicked {
-    background-color: #4CAF50;
-    width: 200px;
+    background-color: lightgreen;
+    width: 20%;
     height: 100px;
 }

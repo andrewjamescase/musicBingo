@@ -3,6 +3,7 @@ import "../../App.css";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MusicTableComponent from "../musicTableComponent/musicTableComponent";
+import styles from "./musicTable.module.css";
 
 function MusicTable() {
   const [displayBoolean, setDisplayBoolean] = useState(true);
@@ -11,19 +12,16 @@ function MusicTable() {
     var currentIndex = array.length,
       temporaryValue,
       randomIndex;
-
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {
       // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
-
       // And swap it with the current element.
       temporaryValue = array[currentIndex];
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = temporaryValue;
     }
-
     return array;
   }
 
@@ -63,26 +61,26 @@ function MusicTable() {
   }
 
   function IntroScreen(props) {
-      return (
-        <div>
-          <p>
-            Welcome to Andrew's Music bingo. Click the button below to generate
-            your card
-          </p>
+    return (
+      <div>
+        <h1 className={styles.header}>
+          Welcome to Andrew's music bingo. Click the button below to generate
+          your card
+        </h1>
 
-          {displayBoolean && (
-            <Button onClick={handleClickEvent}>Generate a unique card</Button>
-          )}
-          {!displayBoolean && (
-            <div>
-            <MusicTableComponent 
-            shuffledArray={songArray}
-            />
-            <Button onClick={handleClickEvent}>Generate a new unique card</Button>
-            </div>
-          )}
-        </div>
-      );
+        {displayBoolean && (
+          <Button onClick={handleClickEvent}>Generate a unique card</Button>
+        )}
+        {!displayBoolean && (
+          <div>
+            <MusicTableComponent shuffledArray={songArray} />
+            <Button onClick={handleClickEvent}>
+              Generate a new unique card
+            </Button>
+          </div>
+        )}
+      </div>
+    );
   }
   return <IntroScreen props={displayBoolean} />;
 }
