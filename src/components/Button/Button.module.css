@@ -7,3 +7,6 @@
     width: 20%;
     height: 100px;
 }
+input[type=submit] {
+    -webkit-border-radius:0px;
+}

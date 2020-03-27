@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from "react-bootstrap/Table";
 import styles from "./musicTableComponent.module.css"
 import Button from "../Button/Button";
