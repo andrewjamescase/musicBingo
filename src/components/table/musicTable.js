@@ -36,7 +36,7 @@ function MusicTable() {
       "Chainsmokers": "Roses",
       "geazy": "Magic in the Hamptons",
       "Kendrick Lamar": "DNA",
-      "Migos": "Bad and Boujee",
+      "Migos": "Stir Fry",
       "Post Malone": "Congratulations",
       "Future": "Mask Off",
       "DJ Khaled": "Wild Thoughts",
