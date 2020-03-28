@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5e544151d90549923bbe9ae3fea8769",
+    "revision": "05ba48d17fec2d213ff474f591195361",
     "url": "/musicBingo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/musicBingo/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "476781c16bdac86f300d",
+    "revision": "88ffdc8587ace11820b2",
     "url": "/musicBingo/static/css/main.106a7d8f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/musicBingo/static/js/2.096b34d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "476781c16bdac86f300d",
-    "url": "/musicBingo/static/js/main.4aaaeab8.chunk.js"
+    "revision": "88ffdc8587ace11820b2",
+    "url": "/musicBingo/static/js/main.ca08b891.chunk.js"
   },
   {
     "revision": "78ec5cfed95266fa033a",
