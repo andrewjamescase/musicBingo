@@ -34,7 +34,7 @@ function MusicTable() {
       "Lil Yachty": "Broccoli",
       "Amine": "Caroline",
       "Chainsmokers": "Roses",
-      "G-Eazy": "Me, Myself, and I",
+      "geazy": "Magic in the Hamptons",
       "Kendrick Lamar": "DNA",
       "Migos": "Bad and Boujee",
       "Post Malone": "Congratulations",
